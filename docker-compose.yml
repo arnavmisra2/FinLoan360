@@ -1,0 +1,42 @@
+services:
+  db:
+    image: mysql:8.0
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpassword
+      MYSQL_DATABASE: finloan360
+      MYSQL_USER: finloan
+      MYSQL_PASSWORD: finloan123
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "root", "-prootpassword"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  backend:
+    build: ./backend
+    ports:
+      - "8000:8000"
+    environment:
+      DATABASE_URL: mysql+pymysql://finloan:finloan123@db:3306/finloan360
+      CORS_ORIGINS: http://localhost:5173,http://localhost:3000
+      MODEL_DIR: ./models
+    depends_on:
+      db:
+        condition: service_healthy
+    volumes:
+      - ./backend/models:/app/models
+      - ./data:/data
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "5173:5173"
+    depends_on:
+      - backend
+
+volumes:
+  mysql_data:

@@ -1,0 +1,9 @@
+Model: GradientBoostingClassifier
+Dataset: credit_score_classification.csv
+Rows used: 18587
+Classes: ['Good', 'Poor', 'Standard']
+Accuracy: 0.4707
+Precision: 0.3617
+Recall: 0.4707
+F1 Score: 0.3540
+ROC-AUC: 0.5065

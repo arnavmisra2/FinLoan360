@@ -1,0 +1,41 @@
+state,district,property_type,rate_per_sqft,source,effective_date
+Maharashtra,Mumbai,residential,18500,NHB Residex / Market Estimate,2026-01-01
+Maharashtra,Mumbai,commercial,32000,NHB Residex / Market Estimate,2026-01-01
+Maharashtra,Mumbai,industrial,22000,NHB Residex / Market Estimate,2026-01-01
+Maharashtra,Mumbai,agricultural,5000,NHB Residex / Market Estimate,2026-01-01
+Maharashtra,Pune,residential,7500,NHB Residex / Market Estimate,2026-01-01
+Maharashtra,Pune,commercial,12000,NHB Residex / Market Estimate,2026-01-01
+Maharashtra,Pune,industrial,8000,NHB Residex / Market Estimate,2026-01-01
+Maharashtra,Nagpur,residential,4500,NHB Residex / Market Estimate,2026-01-01
+Maharashtra,Nagpur,commercial,7000,NHB Residex / Market Estimate,2026-01-01
+Karnataka,Bengaluru,residential,9500,NHB Residex / Market Estimate,2026-01-01
+Karnataka,Bengaluru,commercial,15000,NHB Residex / Market Estimate,2026-01-01
+Karnataka,Bengaluru,industrial,10000,NHB Residex / Market Estimate,2026-01-01
+Karnataka,Mysuru,residential,5000,NHB Residex / Market Estimate,2026-01-01
+Delhi,New Delhi,residential,15000,NHB Residex / Market Estimate,2026-01-01
+Delhi,New Delhi,commercial,28000,NHB Residex / Market Estimate,2026-01-01
+Tamil Nadu,Chennai,residential,8000,NHB Residex / Market Estimate,2026-01-01
+Tamil Nadu,Chennai,commercial,14000,NHB Residex / Market Estimate,2026-01-01
+Gujarat,Ahmedabad,residential,5500,NHB Residex / Market Estimate,2026-01-01
+Gujarat,Ahmedabad,commercial,9000,NHB Residex / Market Estimate,2026-01-01
+West Bengal,Kolkata,residential,6500,NHB Residex / Market Estimate,2026-01-01
+West Bengal,Kolkata,commercial,11000,NHB Residex / Market Estimate,2026-01-01
+Uttar Pradesh,Lucknow,residential,4200,NHB Residex / Market Estimate,2026-01-01
+Uttar Pradesh,Noida,residential,6000,NHB Residex / Market Estimate,2026-01-01
+Rajasthan,Jaipur,residential,4800,NHB Residex / Market Estimate,2026-01-01
+Telangana,Hyderabad,residential,7000,NHB Residex / Market Estimate,2026-01-01
+Telangana,Hyderabad,commercial,12000,NHB Residex / Market Estimate,2026-01-01
+Kerala,Thiruvananthapuram,residential,5800,NHB Residex / Market Estimate,2026-01-01
+Madhya Pradesh,Bhopal,residential,3800,NHB Residex / Market Estimate,2026-01-01
+Madhya Pradesh,Indore,residential,4200,NHB Residex / Market Estimate,2026-01-01
+Bihar,Patna,residential,3500,NHB Residex / Market Estimate,2026-01-01
+Punjab,Chandigarh,residential,7500,NHB Residex / Market Estimate,2026-01-01
+Haryana,Gurugram,residential,8500,NHB Residex / Market Estimate,2026-01-01
+Haryana,Gurugram,commercial,14000,NHB Residex / Market Estimate,2026-01-01
+Andhra Pradesh,Visakhapatnam,residential,4500,NHB Residex / Market Estimate,2026-01-01
+Odisha,Bhubaneswar,residential,4000,NHB Residex / Market Estimate,2026-01-01
+Assam,Guwahati,residential,3800,NHB Residex / Market Estimate,2026-01-01
+Jharkhand,Ranchi,residential,3200,NHB Residex / Market Estimate,2026-01-01
+Chhattisgarh,Raipur,residential,3000,NHB Residex / Market Estimate,2026-01-01
+Goa,Panaji,residential,8000,NHB Residex / Market Estimate,2026-01-01
+Goa,Panaji,commercial,13000,NHB Residex / Market Estimate,2026-01-01

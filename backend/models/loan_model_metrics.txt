@@ -1,0 +1,8 @@
+Model: GradientBoostingClassifier
+Dataset: credit_risk_dataset.csv
+Rows used: 28638
+Accuracy: 0.8883
+Precision: 0.8907
+Recall: 0.8883
+F1 Score: 0.8768
+ROC-AUC: 0.9008

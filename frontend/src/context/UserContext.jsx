@@ -1,23 +1,21 @@
-import React, { createContext, useContext, useState, useEffect } from "react";
+import React, { createContext, useContext, useState } from "react";
 import { createUser, getUser } from "../services/api";
 
 const UserContext = createContext(null);
 
-export function UserProvider({ children }) {
-  const [user, setUser] = useState(null);
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
+function getInitialUser() {
+  try {
     const stored = localStorage.getItem("finloan_user");
-    if (stored) {
-      try {
-        setUser(JSON.parse(stored));
-      } catch {
-        localStorage.removeItem("finloan_user");
-      }
-    }
-    setLoading(false);
-  }, []);
+    return stored ? JSON.parse(stored) : null;
+  } catch {
+    localStorage.removeItem("finloan_user");
+    return null;
+  }
+}
+
+export function UserProvider({ children }) {
+  const [user, setUser] = useState(getInitialUser);
+  const [loading, setLoading] = useState(false);
 
   const registerOrLogin = async (name, email) => {
     try {

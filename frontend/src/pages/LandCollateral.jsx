@@ -177,7 +177,7 @@ export default function LandCollateral() {
               <motion.div key="empty" initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} style={{ textAlign: "center", padding: "60px 20px", color: "#6b7280" }}>
                 <div style={{ fontSize: "48px", marginBottom: "16px" }}>🏠</div>
                 <h3 style={{ fontSize: "20px", fontWeight: 600, color: "#ffffff", margin: "0 0 8px 0" }}>No Assessment Yet</h3>
-                <p style={{ margin: 0, maxWidth: "300px", margin: "0 auto" }}>Enter property details and click "Assess Collateral" to calculate market value and loan eligibility.</p>
+                <p style={{ margin: "0 auto", maxWidth: "300px" }}>Enter property details and click "Assess Collateral" to calculate market value and loan eligibility.</p>
               </motion.div>
             )}
           </AnimatePresence>

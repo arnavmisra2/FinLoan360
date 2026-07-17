@@ -33,7 +33,7 @@ export function PageHeader({ title, subtitle, breadcrumb = [], actions, currentP
         <div style={{ flex: 1, minWidth: 0 }}>
           <div style={{ display: "flex", alignItems: "center", gap: "8px", marginBottom: "12px", flexWrap: "wrap" }}>
             {crumbs.map((crumb, i) => (
-              <React.Fragment key={crumb.path || i}>
+              <React.Fragment key={`${crumb.path}-${i}`}>
                 {i > 0 && (
                   <span style={{ color: "#6b7280", fontSize: "13px" }}>›</span>
                 )}

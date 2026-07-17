@@ -11,6 +11,7 @@ export function GradientButton({
   fullWidth = false,
   className = "",
   style = {},
+  type = "button",
 }) {
   const variants = {
     primary: {
@@ -68,7 +69,7 @@ export function GradientButton({
 
   return (
     <motion.button
-      type="button"
+      type={type}
       onClick={onClick}
       disabled={disabled || loading}
       className={className}

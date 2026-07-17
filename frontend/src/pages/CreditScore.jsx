@@ -161,7 +161,7 @@ export default function CreditScore() {
               <motion.div key="empty" initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} style={{ textAlign: "center", padding: "60px 20px", color: "#6b7280" }}>
                 <div style={{ fontSize: "48px", marginBottom: "16px" }}>📈</div>
                 <h3 style={{ fontSize: "20px", fontWeight: 600, color: "#ffffff", margin: "0 0 8px 0" }}>No Assessment Yet</h3>
-                <p style={{ margin: 0, maxWidth: "300px", margin: "0 auto" }}>Fill in your financial profile and click "Analyze Credit Score" to get your predicted score class and improvement plan.</p>
+                <p style={{ margin: "0 auto", maxWidth: "300px" }}>Fill in your financial profile and click "Analyze Credit Score" to get your predicted score class and improvement plan.</p>
               </motion.div>
             )}
           </AnimatePresence>

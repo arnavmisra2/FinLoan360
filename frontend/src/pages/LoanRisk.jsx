@@ -174,7 +174,7 @@ export default function LoanRisk() {
               <motion.div key="empty" initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} style={{ textAlign: "center", padding: "60px 20px", color: "#6b7280" }}>
                 <div style={{ fontSize: "48px", marginBottom: "16px" }}>📊</div>
                 <h3 style={{ fontSize: "20px", fontWeight: 600, color: "#ffffff", margin: "0 0 8px 0" }}>No Prediction Yet</h3>
-                <p style={{ margin: 0, maxWidth: "300px", margin: "0 auto" }}>Fill in the applicant details and click "Predict Loan Risk" to see the AI assessment.</p>
+                <p style={{ margin: "0 auto", maxWidth: "300px" }}>Fill in the applicant details and click "Predict Loan Risk" to see the AI assessment.</p>
               </motion.div>
             )}
           </AnimatePresence>

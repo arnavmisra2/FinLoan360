@@ -197,7 +197,7 @@ export default function SavingsInvestment() {
               <motion.div key="empty" initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} style={{ textAlign: "center", padding: "60px 20px", color: "#6b7280" }}>
                 <div style={{ fontSize: "48px", marginBottom: "16px" }}>💰</div>
                 <h3 style={{ fontSize: "20px", fontWeight: 600, color: "#ffffff", margin: "0 0 8px 0" }}>No Recommendation Yet</h3>
-                <p style={{ margin: 0, maxWidth: "300px", margin: "0 auto" }}>Configure your profile and click "Get Recommendation" to see personalized savings and investment guidance.</p>
+                <p style={{ margin: "0 auto", maxWidth: "300px" }}>Configure your profile and click "Get Recommendation" to see personalized savings and investment guidance.</p>
               </motion.div>
             )}
           </AnimatePresence>
